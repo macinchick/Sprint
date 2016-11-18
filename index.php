@@ -94,8 +94,13 @@ switch (ENVIRONMENT)
 	case 'development':
     case 'travis':
 	case 'testing':
+		ini_set('display_errors', 0);
+		ini_set('date.timezone', 'America/Los_Angeles');
+		error_reporting(E_ALL & ~E_NOTICE);
+/*
 		error_reporting(-1);
 		ini_set('display_errors', 1);
+*/
 	break;
 
 	case 'production':

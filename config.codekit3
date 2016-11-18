@@ -237,48 +237,6 @@
 		"oAP": "\/application\/database\/migrations\/.gitkeep",
 		"oF": 0
 		},
-	"\/application\/database\/migrations\/20141007214216_Create_auth_tables.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20141007214216_Create_auth_tables.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20141010063911_Create_user_tables.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20141010063911_Create_user_tables.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20141020184926_Create_settings_table.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20141020184926_Create_settings_table.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20141105055640_Create_mail_queue.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20141105055640_Create_mail_queue.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20141211054140_Create_authorization_tables.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20141211054140_Create_authorization_tables.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20150123155112_CreateSessionTable.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20150123155112_CreateSessionTable.php",
-		"oF": 0
-		},
-	"\/application\/database\/migrations\/20160111121139_UpdateLoginAttemptsTable.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/database\/migrations\/20160111121139_UpdateLoginAttemptsTable.php",
-		"oF": 0
-		},
 	"\/application\/database\/seeds\/.gitkeep": {
 		"ft": 8192,
 		"oA": 2,
@@ -357,6 +315,12 @@
 		"oAP": "\/application\/language\/index.html",
 		"oF": 0
 		},
+	"\/application\/libraries\/GG_Form_validation.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/application\/libraries\/GG_Form_validation.php",
+		"oF": 0
+		},
 	"\/application\/libraries\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -367,12 +331,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/application\/libraries\/Migration.php",
-		"oF": 0
-		},
-	"\/application\/libraries\/MY_Form_validation.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/libraries\/MY_Form_validation.php",
 		"oF": 0
 		},
 	"\/application\/libraries\/Profiler.php": {
@@ -699,12 +657,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/errata\/codeigniter_readme.rst",
-		"oF": 0
-		},
-	"\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/myth\/_docs_src\/_404.md": {

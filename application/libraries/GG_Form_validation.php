@@ -3,7 +3,7 @@
 if (! class_exists('MY_Form_validation'))
 {
 
-    class MY_Form_validation extends CI_Form_validation {
+    class GG_Form_validation extends CI_Form_validation {
         /**
          * @var object The CodeIgniter core object.
          */

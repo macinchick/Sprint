@@ -30,7 +30,6 @@ class Migration_create_auth_tables extends CI_Migration {
         ];
         $this->dbforge->add_field($fields);
         $this->dbforge->add_key('id', true);
-        $this->dbforge->add_key('email');
 
         $this->dbforge->create_table('auth_login_attempts', true, config_item('migration_create_table_attr'));
 
@@ -57,7 +56,6 @@ class Migration_create_auth_tables extends CI_Migration {
         ];
         $this->dbforge->add_field($fields);
         $this->dbforge->add_key('id', true);
-        $this->dbforge->add_key('email');
 
         $this->dbforge->create_table('auth_logins', true, config_item('migration_create_table_attr'));
 

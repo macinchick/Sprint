@@ -18,26 +18,24 @@ class Migration_UpdateLoginAttemptsTable extends CI_Migration {
                 'constraint' => 64,
                 'null'       => false,
                 'default'    => 'app',
-                'after'      => 'id'
             ),
             'ip_address' => array(
                 'type'       => 'varchar',
                 'constraint' => 255,
                 'null'       => true,
-                'after'      => 'type'
             ),
             'user_id' => array(
                 'type'       => 'int',
                 'constraint' => 11,
                 'unsigned'   => true,
                 'null'       => true,
-                'after'      => 'ip_address'
             )
         );
 
         $this->dbforge->add_column('auth_login_attempts', $fields);
+		$this->dbforge->add_key('user_id');
 
-        $this->db->query('ALTER TABLE `auth_login_attempts` ADD KEY (`user_id`)');
+        //$this->db->query('ALTER TABLE `auth_login_attempts` ADD KEY (`user_id`)');
 
         $this->dbforge->drop_column('auth_login_attempts', 'email');
     }
@@ -53,12 +51,12 @@ class Migration_UpdateLoginAttemptsTable extends CI_Migration {
         $column = ['email' => [
             'type'       => 'varchar',
             'constraint' => 255,
-            'after'      => 'id'
         ]];
 
         $this->dbforge->add_column('auth_login_attempts', $column);
+		$this->dbforge->add_key('email');
 
-        $this->db->query('ALTER TABLE `auth_login_attempts` ADD KEY (`email`)');
+       // $this->db->query('ALTER TABLE `auth_login_attempts` ADD KEY (`email`)');
     }
 
     //--------------------------------------------------------------------
