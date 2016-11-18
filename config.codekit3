@@ -207,28 +207,28 @@
 		"oAP": "\/application\/controllers\/index.html",
 		"oF": 0
 		},
+	"\/application\/core\/GG_Controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/application\/core\/GG_Controller.php",
+		"oF": 0
+		},
+	"\/application\/core\/GG_Loader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/application\/core\/GG_Loader.php",
+		"oF": 0
+		},
+	"\/application\/core\/GG_Router.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/application\/core\/GG_Router.php",
+		"oF": 0
+		},
 	"\/application\/core\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/application\/core\/index.html",
-		"oF": 0
-		},
-	"\/application\/core\/MY_Controller.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/core\/MY_Controller.php",
-		"oF": 0
-		},
-	"\/application\/core\/MY_Loader.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/core\/MY_Loader.php",
-		"oF": 0
-		},
-	"\/application\/core\/MY_Router.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/application\/core\/MY_Router.php",
 		"oF": 0
 		},
 	"\/application\/database\/migrations\/.gitkeep": {
@@ -2311,6 +2311,12 @@
 		"oAP": "\/system\/core\/compat\/hash.php",
 		"oF": 0
 		},
+	"\/system\/core\/compat\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/core\/compat\/index.html",
+		"oF": 0
+		},
 	"\/system\/core\/compat\/mbstring.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2351,6 +2357,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/core\/Hooks.php",
+		"oF": 0
+		},
+	"\/system\/core\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/core\/index.html",
 		"oF": 0
 		},
 	"\/system\/core\/Input.php": {
@@ -2479,6 +2491,12 @@
 		"oAP": "\/system\/database\/drivers\/cubrid\/cubrid_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/cubrid\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/cubrid\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/ibase\/ibase_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2501,6 +2519,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/ibase\/ibase_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/ibase\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/ibase\/index.html",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/index.html",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/mssql\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/mssql\/index.html",
 		"oF": 0
 		},
 	"\/system\/database\/drivers\/mssql\/mssql_driver.php": {
@@ -2527,6 +2563,12 @@
 		"oAP": "\/system\/database\/drivers\/mssql\/mssql_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/mysql\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/mysql\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/mysql\/mysql_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2549,6 +2591,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/mysql\/mysql_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/mysqli\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/mysqli\/index.html",
 		"oF": 0
 		},
 	"\/system\/database\/drivers\/mysqli\/mysqli_driver.php": {
@@ -2575,6 +2623,12 @@
 		"oAP": "\/system\/database\/drivers\/mysqli\/mysqli_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/oci8\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/oci8\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/oci8\/oci8_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2597,6 +2651,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/oci8\/oci8_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/odbc\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/odbc\/index.html",
 		"oF": 0
 		},
 	"\/system\/database\/drivers\/odbc\/odbc_driver.php": {
@@ -2623,6 +2683,12 @@
 		"oAP": "\/system\/database\/drivers\/odbc\/odbc_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/pdo\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/pdo\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/pdo\/pdo_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2645,6 +2711,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/pdo\/pdo_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/pdo\/subdrivers\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/pdo\/subdrivers\/index.html",
 		"oF": 0
 		},
 	"\/system\/database\/drivers\/pdo\/subdrivers\/pdo_4d_driver.php": {
@@ -2791,6 +2863,12 @@
 		"oAP": "\/system\/database\/drivers\/pdo\/subdrivers\/pdo_sqlsrv_forge.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/postgre\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/postgre\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/postgre\/postgre_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2813,6 +2891,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/postgre\/postgre_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/drivers\/sqlite\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/sqlite\/index.html",
 		"oF": 0
 		},
 	"\/system\/database\/drivers\/sqlite\/sqlite_driver.php": {
@@ -2839,6 +2923,12 @@
 		"oAP": "\/system\/database\/drivers\/sqlite\/sqlite_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/sqlite3\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/sqlite3\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/sqlite3\/sqlite3_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2863,6 +2953,12 @@
 		"oAP": "\/system\/database\/drivers\/sqlite3\/sqlite3_utility.php",
 		"oF": 0
 		},
+	"\/system\/database\/drivers\/sqlsrv\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/drivers\/sqlsrv\/index.html",
+		"oF": 0
+		},
 	"\/system\/database\/drivers\/sqlsrv\/sqlsrv_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2885,6 +2981,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/database\/drivers\/sqlsrv\/sqlsrv_utility.php",
+		"oF": 0
+		},
+	"\/system\/database\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/database\/index.html",
+		"oF": 0
+		},
+	"\/system\/fonts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/fonts\/index.html",
+		"oF": 0
+		},
+	"\/system\/fonts\/texb.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/fonts\/texb.ttf",
 		"oF": 0
 		},
 	"\/system\/helpers\/array_helper.php": {
@@ -2945,6 +3059,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/helpers\/html_helper.php",
+		"oF": 0
+		},
+	"\/system\/helpers\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/helpers\/index.html",
 		"oF": 0
 		},
 	"\/system\/helpers\/inflector_helper.php": {
@@ -3013,6 +3133,12 @@
 		"oAP": "\/system\/helpers\/xml_helper.php",
 		"oF": 0
 		},
+	"\/system\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/index.html",
+		"oF": 0
+		},
 	"\/system\/language\/english\/calendar_lang.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3055,6 +3181,12 @@
 		"oAP": "\/system\/language\/english\/imglib_lang.php",
 		"oF": 0
 		},
+	"\/system\/language\/english\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/language\/english\/index.html",
+		"oF": 0
+		},
 	"\/system\/language\/english\/migration_lang.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3089,6 +3221,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/language\/english\/upload_lang.php",
+		"oF": 0
+		},
+	"\/system\/language\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/language\/index.html",
 		"oF": 0
 		},
 	"\/system\/libraries\/Cache": {
@@ -3151,10 +3289,22 @@
 		"oAP": "\/system\/libraries\/Image_lib.php",
 		"oF": 0
 		},
+	"\/system\/libraries\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/libraries\/index.html",
+		"oF": 0
+		},
 	"\/system\/libraries\/Javascript.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/libraries\/Javascript.php",
+		"oF": 0
+		},
+	"\/system\/libraries\/Javascript\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/libraries\/Javascript\/index.html",
 		"oF": 0
 		},
 	"\/system\/libraries\/Javascript\/Jquery.php": {
@@ -3187,6 +3337,12 @@
 		"oAP": "\/system\/libraries\/Profiler.php",
 		"oF": 0
 		},
+	"\/system\/libraries\/Session\/drivers\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/libraries\/Session\/drivers\/index.html",
+		"oF": 0
+		},
 	"\/system\/libraries\/Session\/drivers\/Session_database_driver.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3209,6 +3365,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/system\/libraries\/Session\/drivers\/Session_redis_driver.php",
+		"oF": 0
+		},
+	"\/system\/libraries\/Session\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system\/libraries\/Session\/index.html",
 		"oF": 0
 		},
 	"\/system\/libraries\/Session\/Session.php": {

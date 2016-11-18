@@ -1,5 +1,11 @@
+.codekit-cache
+**/.sass-cache/**
+*.zip
+
 # Mac Stuff
+*/.DS_Store
 .DS_Store
+.DS_Store?
 
 # IDE Files
 .idea/*
