@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -28,10 +28,10 @@
  *
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	https://codeigniter.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Helpers
  * @category	Helpers
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/helpers/form_helper.html
+ * @link		https://codeigniter.com/user_guide/helpers/form_helper.html
  */
 
 // ------------------------------------------------------------------------
@@ -100,7 +100,7 @@ if ( ! function_exists('form_open'))
 		{
 			foreach ($hidden as $name => $value)
 			{
-				$form .= '<input type="hidden" name="'.$name.'" value="'.html_escape($value).'" style="display:none;" />'."\n";
+				$form .= '<input type="hidden" name="'.$name.'" value="'.html_escape($value).'" />'."\n";
 			}
 		}
 
@@ -568,7 +568,7 @@ if ( ! function_exists('form_label'))
 	 *
 	 * @param	string	The text to appear onscreen
 	 * @param	string	The id the label applies to
-	 * @param	string	Additional attributes
+	 * @param	array	Additional attributes
 	 * @return	string
 	 */
 	function form_label($label_text = '', $id = '', $attributes = array())
@@ -791,7 +791,7 @@ if ( ! function_exists('set_checkbox'))
 		// Unchecked checkbox and radio inputs are not even submitted by browsers ...
 		if ($CI->input->method() === 'post')
 		{
-			return ($input === 'value') ? ' checked="checked"' : '';
+			return ($input === $value) ? ' checked="checked"' : '';
 		}
 
 		return ($default === TRUE) ? ' checked="checked"' : '';
@@ -843,7 +843,7 @@ if ( ! function_exists('set_radio'))
 		// Unchecked checkbox and radio inputs are not even submitted by browsers ...
 		if ($CI->input->method() === 'post')
 		{
-			return ($input === 'value') ? ' checked="checked"' : '';
+			return ($input === $value) ? ' checked="checked"' : '';
 		}
 
 		return ($default === TRUE) ? ' checked="checked"' : '';
